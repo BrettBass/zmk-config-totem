@@ -68,12 +68,9 @@
                 <&macro_press>,
                 <&kp C &kp L &kp E &kp A &kp R>,
                 <&macro_press>,
-                <&kp SEMICOLON>,
+                <&kp SEMI &kp L &kp S>,
                 <&macro_press>,
-                <&kp L &kp S>,
-                <&macro_press>,
-                <&kp RET>,
-                <&macro_press>;
+                <&kp RET>;
 
             label = "P";
         };
