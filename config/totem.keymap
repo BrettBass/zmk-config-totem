@@ -43,6 +43,11 @@
             bindings = <&kp DEL>;
             key-positions = <29 28>;
         };
+
+        back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
@@ -123,7 +128,7 @@
             bindings = <
            &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp NUMBER_6    &kp N7            &kp N8             &kp N9     &kp NUMBER_0
            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp K_BACK    &kp K_COPY    &kp LS(LC(C))    &kp LEFT_ARROW  &kp DOWN          &kp UP             &kp RIGHT  &none
-&kp LCTRL  &kp LEFT_SHIFT    &none             &none         &kp K_PASTE   &kp LS(LC(V))    &none           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none      &none         &kp BACKSPACE
+&kp LCTRL  &kp LEFT_SHIFT    &kp TAB           &none         &kp K_PASTE   &kp LS(LC(V))    &none           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none      &none         &kp BACKSPACE
                                                &trans        &trans        &trans           &mo ADJ         &none             &trans
             >;
         };
