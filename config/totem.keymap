@@ -84,10 +84,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q             &kp W  &kp E         &kp R        &kp T        &kp Y    &kp U             &kp I          &kp O    &kp P
-           &kp A             &kp S  &kp D         &kp F        &kp G        &kp H    &kp J             &mt RCTRL K    &kp L    &kp SEMICOLON
-&kp LCTRL  &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V        &kp B        &kp N    &kp M             &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &kp ESC
-                                    &kp LEFT_ALT  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM CAPSLOCK  &kp RIGHT_WIN
+               &kp Q             &kp W  &kp E         &kp R    &kp T        &kp Y    &kp U    &kp I          &kp O    &kp P
+               &kp A             &kp S  &kp D         &kp F    &kp G        &kp H    &kp J    &mt RCTRL K    &kp L    &kp SEMICOLON
+&mt LCTRL TAB  &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B        &kp N    &kp M    &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &lt 4 ESC
+                                        &kp LEFT_ALT  &to NAV  &kp SPACE    &kp RET  &to SYM  &kp RIGHT_WIN
             >;
         };
 
@@ -111,8 +111,8 @@
 
             bindings = <
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp NUMBER_6    &kp N7    &kp N8  &kp N9     &kp NUMBER_0
-        &none         &none         &none         &kp DEL       &kp PAGE_UP      &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &none
-&trans  &none         &none         &none         &kp CLCK      &kp PAGE_DOWN    &none           &none     &none   &none      &none         &kp BACKSPACE
+        &none         &none         &none         &kp K_COPY    &kp PAGE_UP      &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &none
+&trans  &none         &none         &none         &kp K_PASTE   &kp PAGE_DOWN    &none           &none     &none   &none      &none         &kp BACKSPACE
                                     &trans        &trans        &trans           &mo ADJ         &none     &trans
             >;
         };
@@ -188,9 +188,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
+       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &kp K_BACK
        &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
+&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none       &none
                               &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
         };
