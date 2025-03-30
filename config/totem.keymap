@@ -50,7 +50,7 @@
         };
 
         ctrlback {
-            bindings = <&kp LC(K_BACK)>;
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <16 17 18>;
         };
 
@@ -68,7 +68,8 @@
                 <&macro_press>,
                 <&kp C &kp L &kp E &kp A &kp R &kp RET>,
                 <&macro_press>,
-                <&kp L &kp S &kp RET>;
+                <&kp L &kp S &kp RET>,
+                <&macro_press>;
 
             label = "P";
         };
