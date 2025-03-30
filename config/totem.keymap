@@ -95,10 +95,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q             &kp W  &kp E         &kp R    &kp T        &kp Y    &kp U    &kp I          &kp O    &kp P
-               &kp A             &kp S  &kp D         &kp F    &kp G        &kp H    &kp J    &kp K          &kp L    &kp SEMICOLON
-&mt LCTRL TAB  &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B        &kp N    &kp M    &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &lt 4 ESC
-                                        &kp LEFT_ALT  &mo NAV  &kp SPACE    &kp RET  &mo SYM  &kp RIGHT_WIN
+           &kp Q             &kp W  &kp E         &kp R    &kp T        &kp Y    &kp U    &kp I          &kp O    &kp P
+           &kp A             &kp S  &kp D         &kp F    &kp G        &kp H    &kp J    &kp K          &kp L    &kp SEMICOLON
+&kp LCTRL  &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V    &kp B        &kp N    &kp M    &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &lt 4 ESC
+                                    &kp LEFT_ALT  &mo NAV  &kp SPACE    &kp RET  &mo SYM  &kp RIGHT_WIN
             >;
         };
 
@@ -123,7 +123,7 @@
             bindings = <
            &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp NUMBER_6    &kp N7    &kp N8  &kp N9     &kp NUMBER_0
            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp K_BACK    &kp K_COPY    &kp LS(LC(C))    &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &none
-&kp LCTRL  &kp LEFT_SHIFT    &none             &none         &kp K_PASTE   &kp LS(LC(V))    &none           &none     &none   &none      &none         &kp BACKSPACE
+&kp LCTRL  &kp LEFT_SHIFT    &none             &none         &kp K_PASTE   &kp LS(LC(V))    &none           &kp SQT   &none   &none      &none         &kp BACKSPACE
                                                &trans        &trans        &trans           &mo ADJ         &none     &trans
             >;
         };
