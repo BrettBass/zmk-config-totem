@@ -49,7 +49,10 @@
         clearls: p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp C &kp L &kp E &kp A &kp R &kp SEMI &kp SPACE &kp L &kp S &kp RET>;
+            bindings =
+                <&macro_press>,
+                <&none &kp C &kp L &kp E &kp A &kp R &kp SEMI &kp SPACE &kp L &kp S &kp RET>;
+
             label = "P";
         };
     };
