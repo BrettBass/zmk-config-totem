@@ -70,9 +70,12 @@
                 <&macro_press>,
                 <&kp RET>,
                 <&macro_press>,
+                <&macro_press>,
                 <&kp L &kp S>,
                 <&macro_press>,
+                <&macro_press>,
                 <&kp RET>,
+                <&macro_press>,
                 <&macro_press>;
 
             label = "P";
