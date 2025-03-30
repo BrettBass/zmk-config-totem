@@ -70,9 +70,9 @@
                 <&macro_press>,
                 <&kp RET>,
                 <&macro_press>,
-                <&kp L>,
+                <&kp L &kp S>,
                 <&macro_press>,
-                <&kp S>,
+                <&kp SEMICOLON>,
                 <&macro_press>,
                 <&kp RET>,
                 <&macro_press>;
