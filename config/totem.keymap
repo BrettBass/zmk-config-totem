@@ -66,9 +66,13 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp C &kp L &kp E &kp A &kp R &kp RET>,
+                <&kp C &kp L &kp E &kp A &kp R>,
                 <&macro_press>,
-                <&kp L &kp S &kp RET>,
+                <&kp RET>,
+                <&macro_press>,
+                <&kp L &kp S>,
+                <&macro_press>,
+                <&kp RET>,
                 <&macro_press>;
 
             label = "P";
