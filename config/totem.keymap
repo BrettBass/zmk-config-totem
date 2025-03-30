@@ -48,6 +48,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <17 18>;
         };
+
+        ctrlback {
+            bindings = <&kp LC(K_BACK)>;
+            key-positions = <16 17 18>;
+        };
+
+        ctrldel {
+            bindings = <&kp LC(DEL)>;
+            key-positions = <27 28 29>;
+        };
     };
 
     macros {
@@ -61,20 +71,6 @@
                 <&kp RET>;
 
             label = "P";
-        };
-
-        shiftcopy: shiftcopy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp C>;
-            label = "SHIFTCOPY";
-        };
-
-        shiftpaste: shiftpaste {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp V>;
-            label = "SHIFTPASTE";
         };
     };
 
